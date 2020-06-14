@@ -338,23 +338,8 @@
 	<dict>
 		<key>Add</key>
 		<dict>
-			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
-			<dict>
-				<key>alc-layout-id</key>
-				<data>DwAAAA==</data>
-				<key>AFGLowPowerState</key>
-				<data>AQAAAA==</data>
-			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
-				<key>AAPL,ig-platform-id</key>
-				<data>CQClPg==</data>
-				<key>device-id</key>
-				<data>pT4AAA==</data>
-				<key>framebuffer-patch-enable</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-stolenmem</key>
-				<data>AAAwAQ==</data>
 				<key>enable-cfl-backlight-fix</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-con0-enable</key>
@@ -369,6 +354,35 @@
 				<data>AQEJAAAIAADHAQAA</data>
 				<key>framebuffer-con2-alldata</key>
 				<data>AgYKAAAEAADHAQAA</data>
+				<key>AAPL,ig-platform-id</key>
+				<data>CQClPg==</data>
+				<key>device-id</key>
+				<data>pT4AAA==</data>
+				<key>device_type</key>
+				<string>VGA compatible controller</string>
+				<key>enable-hdmi-dividers-fix</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-fbmem</key>
+				<data>AACQAA==</data>
+				<key>framebuffer-patch-enable</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-stolenmem</key>
+				<data>AAAwAQ==</data>
+				<key>framebuffer-unifiedmem</key>
+				<data>AAAAgA==</data>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
+			<dict>
+				<key>device_type</key>
+				<string>Audio device</string>
+				<key>model</key>
+				<string>Cannon Point-LP High Definition Audio Controller</string>
+				<key>AFGLowPowerState</key>
+				<data>AQAAAA==</data>
+				<key>alc-layout-id</key>
+				<data>DwAAAA==</data>
 			</dict>
 		</dict>
 		<key>Delete</key>
