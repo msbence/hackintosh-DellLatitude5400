@@ -105,15 +105,11 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				X09TSQ==
-				</data>
+				<data>X09TSQ==</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Replace</key>
-				<data>
-				WE9TSQ==
-				</data>
+				<data>WE9TSQ==</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -123,15 +119,11 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				RUNEVg==
-				</data>
+				<data>RUNEVg==</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Replace</key>
-				<data>
-				RUNfXw==
-				</data>
+				<data>RUNfXw==</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -141,15 +133,11 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				R1BSVwI=
-				</data>
+				<data>R1BSVwI=</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Replace</key>
-				<data>
-				WFBSVwI=
-				</data>
+				<data>WFBSVwI=</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -159,15 +147,11 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				VVBSVwpwEg==
-				</data>
+				<data>VVBSVwpwEg==</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Replace</key>
-				<data>
-				WFBSVwpwEg==
-				</data>
+				<data>WFBSVwpwEg==</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -177,33 +161,23 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				X0NSUwigGQ==
-				</data>
+				<data>X0NSUwigGQ==</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>OemTableId</key>
-				<data>
-				AAAAAA==
-				</data>
+				<data>AAAAAA==</data>
 				<key>Replace</key>
-				<data>
-				WENSUwigGQ==
-				</data>
+				<data>WENSUwigGQ==</data>
 				<key>ReplaceMask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data>
-				AAAAAA==
-				</data>
+				<data>AAAAAA==</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -213,33 +187,23 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				IgABeQA=
-				</data>
+				<data>IgABeQA=</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>OemTableId</key>
-				<data>
-				AAAAAA==
-				</data>
+				<data>AAAAAA==</data>
 				<key>Replace</key>
-				<data>
-				IgAAeQA=
-				</data>
+				<data>IgAAeQA=</data>
 				<key>ReplaceMask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data>
-				AAAAAA==
-				</data>
+				<data>AAAAAA==</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -249,33 +213,23 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				IgEAeQA=
-				</data>
+				<data>IgEAeQA=</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>OemTableId</key>
-				<data>
-				AAAAAA==
-				</data>
+				<data>AAAAAA==</data>
 				<key>Replace</key>
-				<data>
-				IgAAeQA=
-				</data>
+				<data>IgAAeQA=</data>
 				<key>ReplaceMask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data>
-				AAAAAA==
-				</data>
+				<data>AAAAAA==</data>
 			</dict>
 		</array>
 		<key>Quirks</key>
@@ -301,15 +255,11 @@
 				<key>Enabled</key>
 				<false/>
 				<key>OemTableId</key>
-				<data>
-				Q3B1UG0AAAA=
-				</data>
+				<data>Q3B1UG0AAAA=</data>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data>
-				U1NEVA==
-				</data>
+				<data>U1NEVA==</data>
 			</dict>
 			<dict>
 				<key>All</key>
@@ -319,15 +269,11 @@
 				<key>Enabled</key>
 				<false/>
 				<key>OemTableId</key>
-				<data>
-				Q3B1MElzdAA=
-				</data>
+				<data>Q3B1MElzdAA=</data>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data>
-				U1NEVA==
-				</data>
+				<data>U1NEVA==</data>
 			</dict>
 		</array>
 	</dict>
@@ -367,6 +313,8 @@
 			<false/>
 			<key>SyncRuntimePermissions</key>
 			<false/>
+			<key>ProvideMaxSlide</key>
+			<integer>0</integer>
 		</dict>
 		<key>MmioWhitelist</key>
 		<array>
@@ -395,60 +343,34 @@
 			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
 			<dict>
 				<key>alc-layout-id</key>
-				<data>
-				DwAAAA==
-				</data>
+				<data>DwAAAA==</data>
 				<key>AFGLowPowerState</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>framebuffer-patch-enable</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 				<key>framebuffer-stolenmem</key>
-				<data>
-				AAAwAQ==
-				</data>
+				<data>AAAwAQ==</data>
 				<key>enable-cfl-backlight-fix</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 				<key>framebuffer-con0-enable</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 				<key>framebuffer-con1-enable</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 				<key>framebuffer-con2-enable</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 				<key>framebuffer-con0-alldata</key>
-				<data>
-				AAAIAAIAAACYAAAA
-				</data>
+				<data>AAAIAAIAAACYAAAA</data>
 				<key>framebuffer-con1-alldata</key>
-				<data>
-				AQEJAAAIAADHAQAA
-				</data>
+				<data>AQEJAAAIAADHAQAA</data>
 				<key>framebuffer-con2-alldata</key>
-				<data>
-				AgYKAAAEAADHAQAA
-				</data>
+				<data>AgYKAAAEAADHAQAA</data>
 				<key>AAPL,ig-platform-id</key>
-				<data>
-				CQClPg==
-				</data>
+				<data>CQClPg==</data>
 				<key>device-id</key>
-				<data>
-				pT4AAA==
-				</data>
+				<data>pT4AAA==</data>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -478,6 +400,8 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
+				<key>Arch</key>
+				<string>x86_64</string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -494,6 +418,8 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
+				<key>Arch</key>
+				<string>x86_64</string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -510,6 +436,8 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
+				<key>Arch</key>
+				<string>x86_64</string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -526,6 +454,8 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
+				<key>Arch</key>
+				<string>x86_64</string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -533,7 +463,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/NVMeFix</string>
 				<key>MaxKernel</key>
@@ -542,6 +472,8 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
+				<key>Arch</key>
+				<string>x86_64</string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -558,6 +490,8 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
+				<key>Arch</key>
+				<string>x86_64</string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -574,6 +508,8 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
+				<key>Arch</key>
+				<string>x86_64</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -590,6 +526,8 @@
 				<string></string>
 				<key>BundlePath</key>
 				<string>XHCI-unsupported.kext</string>
+				<key>Arch</key>
+				<string>x86_64</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -606,6 +544,8 @@
 				<string></string>
 				<key>BundlePath</key>
 				<string>USBPorts.kext</string>
+				<key>Arch</key>
+				<string>x86_64</string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -622,6 +562,8 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
+				<key>Arch</key>
+				<string>x86_64</string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -633,11 +575,13 @@
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/SMCBatteryManager</string>
 				<key>MaxKernel</key>
-				<string>19.99.99</string>
+				<string></string>
 				<key>MinKernel</key>
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
+				<key>Arch</key>
+				<string>x86_64</string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -645,7 +589,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/ACPIBatteryManager</string>
 				<key>MaxKernel</key>
@@ -654,6 +598,8 @@
 				<string>20.0.0</string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
+				<key>Arch</key>
+				<string>x86_64</string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -670,6 +616,8 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
+				<key>Arch</key>
+				<string>x86_64</string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -686,10 +634,12 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
+				<key>Arch</key>
+				<string>x86_64</string>
 			</dict>
 			<dict>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Comment</key>
 				<string></string>
 				<key>MaxKernel</key>
@@ -702,6 +652,8 @@
 				<string>IOGraphicsFamily</string>
 				<key>PlistPath</key>
 				<string>Info.plist</string>
+				<key>Arch</key>
+				<string>x86_64</string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -718,6 +670,8 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
+				<key>Arch</key>
+				<string>x86_64</string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -734,6 +688,8 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
+				<key>Arch</key>
+				<string>x86_64</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -750,6 +706,8 @@
 				<string>Contents/MacOS/VoodooInput</string>
 				<key>BundlePath</key>
 				<string>VoodooI2C.kext/Contents/PlugIns/VoodooInput.kext</string>
+				<key>Arch</key>
+				<string>x86_64</string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -766,6 +724,8 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
+				<key>Arch</key>
+				<string>x86_64</string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -782,6 +742,8 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
+				<key>Arch</key>
+				<string>x86_64</string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -798,6 +760,8 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
+				<key>Arch</key>
+				<string>x86_64</string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -814,6 +778,8 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
+				<key>Arch</key>
+				<string>x86_64</string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -830,6 +796,8 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
+				<key>Arch</key>
+				<string>x86_64</string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -846,6 +814,8 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
+				<key>Arch</key>
+				<string>x86_64</string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -862,6 +832,8 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
+				<key>Arch</key>
+				<string>x86_64</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -878,6 +850,8 @@
 				<string>Contents/MacOS/SMCDellSensors</string>
 				<key>BundlePath</key>
 				<string>SMCDellSensors.kext</string>
+				<key>Arch</key>
+				<string>x86_64</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -894,6 +868,8 @@
 				<string>Contents/MacOS/VoodooInput</string>
 				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooInput.kext</string>
+				<key>Arch</key>
+				<string>x86_64</string>
 			</dict>
 		</array>
 		<key>Block</key>
@@ -902,11 +878,9 @@
 		<key>Emulate</key>
 		<dict>
 			<key>Cpuid1Data</key>
-			<data>
-			</data>
+			<data></data>
 			<key>Cpuid1Mask</key>
-			<data>
-			</data>
+			<data></data>
 		</dict>
 		<key>Patch</key>
 		<array>
@@ -943,6 +917,40 @@
 			<false/>
 			<key>DisableRtcChecksum</key>
 			<false/>
+			<key>DisableLinkeditJettison</key>
+			<true/>
+		</dict>
+		<key>Force</key>
+		<array>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>System/Library/Extensions/IOGraphicsFamily.kext</string>
+				<key>Comment</key>
+				<string>Patch engine</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Identifier</key>
+				<string>com.apple.iokit.IOGraphicsFamily</string>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/IOGraphicsFamily</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+		</array>
+		<key>Scheme</key>
+		<dict>
+			<key>FuzzyMatch</key>
+			<true/>
+			<key>KernelArch</key>
+			<string>x86_64</string>
+			<key>KernelCache</key>
+			<string>Auto</string>
 		</dict>
 	</dict>
 	<key>Misc</key>
@@ -989,6 +997,8 @@
 			<false/>
 			<key>SysReport</key>
 			<false/>
+			<key>SerialInit</key>
+			<false/>
 		</dict>
 		<key>Entries</key>
 		<array>
@@ -1025,6 +1035,18 @@
 			<string>Optional</string>
 			<key>BootProtect</key>
 			<string>Bootstrap</string>
+			<key>ApECID</key>
+			<integer>0</integer>
+			<key>DmgLoading</key>
+			<string>Signed</string>
+			<key>EnablePassword</key>
+			<false/>
+			<key>PasswordHash</key>
+			<data></data>
+			<key>PasswordSalt</key>
+			<data></data>
+			<key>SecureBootModel</key>
+			<string>Default</string>
 		</dict>
 		<key>Tools</key>
 		<array>
@@ -1037,31 +1059,24 @@
 			<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
 			<dict>
 				<key>DefaultBackgroundColor</key>
-				<data>
-				AAAAAA==
-				</data>
+				<data>AAAAAA==</data>
 				<key>UIScale</key>
-				<data>
-				AQ==
-				</data>
+				<data>AQ==</data>
 			</dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>SystemAudioVolume</key>
-				<data>
-				Rg==
-				</data>
+				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>vsmcgen=1 keepsyms=1 -lilubetaall</string>
+				<string>keepsyms=1</string>
 				<key>csr-active-config</key>
-				<data>
-				AAAAAA==
-				</data>
+				<data>AAAAAA==</data>
 				<key>nvda_drv</key>
-				<data>
-				</data>
+				<data></data>
 				<key>prev-lang:kbd</key>
 				<string>hu-HU:0</string>
+				<key>run-efi-updater</key>
+				<string>No</string>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -1120,9 +1135,7 @@
 			<key>MLB</key>
 			<string>FVF032270QX00001H</string>
 			<key>ROM</key>
-			<data>
-			ESIzAAAA
-			</data>
+			<data>ESIzAAAA</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
@@ -1221,6 +1234,8 @@
 			<false/>
 			<key>TextRenderer</key>
 			<string>BuiltinGraphics</string>
+			<key>UgaPassThrough</key>
+			<false/>
 		</dict>
 		<key>ProtocolOverrides</key>
 		<dict>
@@ -1253,6 +1268,12 @@
 			<key>AppleDebugLog</key>
 			<false/>
 			<key>AppleRtcRam</key>
+			<false/>
+			<key>AppleFramebufferInfo</key>
+			<false/>
+			<key>AppleImg4Verification</key>
+			<false/>
+			<key>AppleSecureBoot</key>
 			<false/>
 		</dict>
 		<key>Quirks</key>
@@ -1297,6 +1318,8 @@
 			<integer>0</integer>
 			<key>MinVersion</key>
 			<integer>0</integer>
+			<key>GlobalConnect</key>
+			<false/>
 		</dict>
 	</dict>
 </dict>
