@@ -24,8 +24,8 @@
 - TouchPad buttons
 - TrackStick
 - Dedicated brightness control keys (use Fn+S/Fn+B instead)
-- Sleep longer than ~12h may cause a kernel panic
 - Jack hotplug sometimes not working
+- HDMI coldplug (hotplug is OK)
 - *Hibernation (none of Hackintoshes can do that)*
 
 ## Working
@@ -41,9 +41,10 @@
 - TrackPad with gestures (visible as Magic Trackpad 2)
 - Audio, with speaker and microphone support
 - QE/CI
+- Sleep
 
 ## Some random text
 
-So I made this hackintosh basically just for fun, but it seems kinda stable, so I use it as my dialy driver. I never had crashes with it, except when I put it sleep for a longer time (but I can live with that, It's not a Mac after all).  
+So I made this hackintosh basically just for fun, but it seems kinda stable, so I use it as my dialy driver. I've never had crashes with it.  
 Regarding the not working stuff: the card reader is a PCI one, and only the USB ones are supported, there is no driver for it (currently). I don't need it anyway :) The sleep issue is not a priority but I guess it can be fixed (at least I read that somewhere). The Jack hotplug thing is more stable with every new AppleALC release but I don't use it because of two things: there is a jack port on my docking station and that works perfectly, or I just go with Bluetooth audio which works fine.  
 The priority is the Trackpad buttons. That's a pain in the @ss. My trackpad is an I2C one, and I'm using it with the VoodooI2C kext which is pretty incompatible with VoodooPS2. So either I have a fully working Magic Trackpad 2 like Trackpad without buttons, or have a "dumb" Trackpad with buttons. I choose the first option. I usually use my Hackintosh with a Magic Mouse 2 anyways. But I would like to fix this sometime. In the meantime I have a mixed version of VoodooI2C and VoodooPS2 so I have keyboard (which is a good to have), and trackpad without buttons (so have fun with dragging on a hard-surface trackpad like mine). Pull requests or suggestions are welcome regarding this.
