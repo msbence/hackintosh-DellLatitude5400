@@ -349,7 +349,7 @@
 				<data>AQAAAA==</data>
 				<key>framebuffer-stolenmem</key>
 				<data>AAAwAQ==</data>
-				<key>enable-cfl-backlight-fix</key>
+				<key>enable-backlight-registers-fix</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-con0-enable</key>
 				<data>AQAAAA==</data>
@@ -905,6 +905,8 @@
 			<false/>
 			<key>LegacyCommpage</key>
 			<false/>
+			<key>SetApfsTrimTimeout</key>
+			<integer>-1</integer>
 		</dict>
 		<key>Force</key>
 		<array>
@@ -965,6 +967,12 @@
 			<integer>5</integer>
 			<key>ConsoleAttributes</key>
 			<integer>0</integer>
+			<key>PickerVariant</key>
+			<string>Auto</string>
+			<key>LauncherOption</key>
+			<string>Disabled</string>
+			<key>LauncherPath</key>
+			<string>Default</string>
 		</dict>
 		<key>Debug</key>
 		<dict>
@@ -1020,8 +1028,6 @@
 			<integer>0</integer>
 			<key>Vault</key>
 			<string>Optional</string>
-			<key>BootProtect</key>
-			<string>Bootstrap</string>
 			<key>ApECID</key>
 			<integer>0</integer>
 			<key>DmgLoading</key>
@@ -1389,6 +1395,8 @@
 			<string>Auto</string>
 			<key>ProcessorType</key>
 			<integer>0</integer>
+			<key>MaxBIOSVersion</key>
+			<false/>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -1399,6 +1407,8 @@
 		<key>UpdateSMBIOSMode</key>
 		<string>Custom</string>
 		<key>CustomMemory</key>
+		<false/>
+		<key>UseRawUuidEncoding</key>
 		<false/>
 	</dict>
 	<key>UEFI</key>
@@ -1419,6 +1429,8 @@
 			<string>Auto</string>
 			<key>VolumeAmplifier</key>
 			<integer>0</integer>
+			<key>SetupDelay</key>
+			<integer>0</integer>
 		</dict>
 		<key>ConnectDrivers</key>
 		<true/>
@@ -1436,7 +1448,8 @@
 			<string>UsbMouseDxe.efi</string>
 			<string>XhciDxe.efi</string>
 			<string>ApfsDriverLoader.efi</string>
-			<string>HfsPlus.efi</string>
+			<string>OpenHfsPlus.efi</string>
+			<string>OpenPartitionDxe.efi</string>
 		</array>
 		<key>Input</key>
 		<dict>
@@ -1537,10 +1550,10 @@
 			<true/>
 			<key>UnblockFsConnect</key>
 			<false/>
-			<key>DeduplicateBootOrder</key>
-			<true/>
 			<key>TscSyncTimeout</key>
 			<integer>0</integer>
+			<key>DisableSecurityPolicy</key>
+			<false/>
 		</dict>
 		<key>ReservedMemory</key>
 		<array>
