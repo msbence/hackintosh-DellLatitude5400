@@ -5,14 +5,14 @@
 	<key>BuildAliasOf</key>
 	<string>IOGraphics</string>
 	<key>BuildVersion</key>
-	<string>103</string>
+	<string>3036</string>
 	<key>CFBundleShortVersionString</key>
-	<string>576.1</string>
+	<string>585</string>
 	<key>CFBundleVersion</key>
-	<string>576.1</string>
+	<string>585</string>
 	<key>ProjectName</key>
 	<string>IOGraphics</string>
 	<key>SourceVersion</key>
-	<string>576001000000000</string>
+	<string>585000000000000</string>
 </dict>
 </plist>
