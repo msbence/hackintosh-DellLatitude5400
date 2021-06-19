@@ -2,6 +2,8 @@
 
 *Based on OpenCore, of course.*
 
+**WARNING: This repository now uses macOS Monterey 12, an early developer beta build of macOS! Use at your own risk! (Although everything should work as in Big Sur.) If you need info for Big Sur, feel free to look at an older commit.**
+
 ![About my Mac](.img/system.png)
 
 ## Specification

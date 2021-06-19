@@ -102,6 +102,22 @@
 				<integer>0</integer>
 				<key>Replace</key>
 				<data>WE9TSQ==</data>
+				<key>Base</key>
+				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
+				<key>OemTableId</key>
+				<data>AAAAAA==</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data>AAAAAA==</data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -116,6 +132,22 @@
 				<integer>0</integer>
 				<key>Replace</key>
 				<data>RUNfXw==</data>
+				<key>Base</key>
+				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
+				<key>OemTableId</key>
+				<data>AAAAAA==</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data>AAAAAA==</data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -130,6 +162,22 @@
 				<integer>0</integer>
 				<key>Replace</key>
 				<data>WFBSVwI=</data>
+				<key>Base</key>
+				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
+				<key>OemTableId</key>
+				<data>AAAAAA==</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data>AAAAAA==</data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -144,6 +192,22 @@
 				<integer>0</integer>
 				<key>Replace</key>
 				<data>WFBSVwpwEg==</data>
+				<key>Base</key>
+				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
+				<key>OemTableId</key>
+				<data>AAAAAA==</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data>AAAAAA==</data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -170,6 +234,10 @@
 				<integer>0</integer>
 				<key>TableSignature</key>
 				<data>AAAAAA==</data>
+				<key>Base</key>
+				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -196,6 +264,10 @@
 				<integer>0</integer>
 				<key>TableSignature</key>
 				<data>AAAAAA==</data>
+				<key>Base</key>
+				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -222,6 +294,10 @@
 				<integer>0</integer>
 				<key>TableSignature</key>
 				<data>AAAAAA==</data>
+				<key>Base</key>
+				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
 			</dict>
 		</array>
 		<key>Quirks</key>
@@ -909,6 +985,8 @@
 			<false/>
 			<key>SetApfsTrimTimeout</key>
 			<integer>-1</integer>
+			<key>ProvideCurrentCpuInfo</key>
+			<false/>
 		</dict>
 		<key>Force</key>
 		<array>
@@ -1012,6 +1090,8 @@
 				<string>PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)/NVMe(0x1,11-22-33-44-55-66-77-88)/HD(1,GPT,00000000-0000-0000-0000-000000000000,0x800,0x64000)/\EFI\BOOT\BOOTX64.EFI</string>
 				<key>TextMode</key>
 				<false/>
+				<key>Flavour</key>
+				<string>Auto</string>
 			</dict>
 		</array>
 		<key>Security</key>
@@ -1044,6 +1124,8 @@
 			<string>Disabled</string>
 			<key>BlacklistAppleUpdate</key>
 			<false/>
+			<key>AllowToggleSip</key>
+			<false/>
 		</dict>
 		<key>Tools</key>
 		<array>
@@ -1064,6 +1146,8 @@
 				<false/>
 				<key>TextMode</key>
 				<false/>
+				<key>Flavour</key>
+				<string>Auto</string>
 			</dict>
 			<dict>
 				<key>Name</key>
@@ -1082,6 +1166,8 @@
 				<false/>
 				<key>TextMode</key>
 				<false/>
+				<key>Flavour</key>
+				<string>Auto</string>
 			</dict>
 			<dict>
 				<key>Name</key>
@@ -1100,6 +1186,8 @@
 				<false/>
 				<key>TextMode</key>
 				<false/>
+				<key>Flavour</key>
+				<string>Auto</string>
 			</dict>
 			<dict>
 				<key>Name</key>
@@ -1118,6 +1206,8 @@
 				<false/>
 				<key>TextMode</key>
 				<false/>
+				<key>Flavour</key>
+				<string>Auto</string>
 			</dict>
 			<dict>
 				<key>Name</key>
@@ -1136,6 +1226,8 @@
 				<false/>
 				<key>TextMode</key>
 				<false/>
+				<key>Flavour</key>
+				<string>Auto</string>
 			</dict>
 			<dict>
 				<key>Name</key>
@@ -1154,6 +1246,8 @@
 				<false/>
 				<key>TextMode</key>
 				<false/>
+				<key>Flavour</key>
+				<string>Auto</string>
 			</dict>
 			<dict>
 				<key>Name</key>
@@ -1172,6 +1266,8 @@
 				<false/>
 				<key>TextMode</key>
 				<false/>
+				<key>Flavour</key>
+				<string>Auto</string>
 			</dict>
 			<dict>
 				<key>Name</key>
@@ -1190,6 +1286,8 @@
 				<false/>
 				<key>TextMode</key>
 				<false/>
+				<key>Flavour</key>
+				<string>Auto</string>
 			</dict>
 			<dict>
 				<key>Name</key>
@@ -1208,6 +1306,8 @@
 				<false/>
 				<key>TextMode</key>
 				<false/>
+				<key>Flavour</key>
+				<string>Auto</string>
 			</dict>
 			<dict>
 				<key>Name</key>
@@ -1226,6 +1326,8 @@
 				<false/>
 				<key>TextMode</key>
 				<false/>
+				<key>Flavour</key>
+				<string>Auto</string>
 			</dict>
 			<dict>
 				<key>Name</key>
@@ -1244,6 +1346,8 @@
 				<false/>
 				<key>TextMode</key>
 				<false/>
+				<key>Flavour</key>
+				<string>Auto</string>
 			</dict>
 			<dict>
 				<key>Name</key>
@@ -1262,6 +1366,8 @@
 				<false/>
 				<key>TextMode</key>
 				<false/>
+				<key>Flavour</key>
+				<string>Auto</string>
 			</dict>
 			<dict>
 				<key>Name</key>
@@ -1280,6 +1386,8 @@
 				<false/>
 				<key>TextMode</key>
 				<false/>
+				<key>Flavour</key>
+				<string>Auto</string>
 			</dict>
 			<dict>
 				<key>Name</key>
@@ -1290,6 +1398,26 @@
 				<true/>
 				<key>Path</key>
 				<string>ControlMsrE2.efi</string>
+				<key>Arguments</key>
+				<string></string>
+				<key>Auxiliary</key>
+				<true/>
+				<key>RealPath</key>
+				<false/>
+				<key>TextMode</key>
+				<false/>
+				<key>Flavour</key>
+				<string>Auto</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>CsrUtil.efi</string>
+				<key>Comment</key>
+				<string>CsrUtil.efi</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>CsrUtil.efi</string>
 				<key>Arguments</key>
 				<string></string>
 				<key>Auxiliary</key>
@@ -1317,7 +1445,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>keepsyms=1</string>
+				<string>keepsyms=1 -lilubetaall -lilubeta -alcbeta</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>nvda_drv</key>
@@ -1338,6 +1466,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<array>
 				<string>boot-args</string>
+				<string>csr-active-config</string>
 			</array>
 		</dict>
 		<key>LegacyEnable</key>
@@ -1379,8 +1508,6 @@
 		<true/>
 		<key>Generic</key>
 		<dict>
-			<key>AdviseWindows</key>
-			<false/>
 			<key>MLB</key>
 			<string>FVF032270QX00001H</string>
 			<key>ROM</key>
@@ -1398,6 +1525,8 @@
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>MaxBIOSVersion</key>
+			<false/>
+			<key>AdviseFeatures</key>
 			<false/>
 		</dict>
 		<key>UpdateDataHub</key>
@@ -1501,7 +1630,7 @@
 			<key>ForceResolution</key>
 			<false/>
 			<key>GopPassThrough</key>
-			<false/>
+			<string>Disabled</string>
 		</dict>
 		<key>ProtocolOverrides</key>
 		<dict>
@@ -1538,6 +1667,8 @@
 			<key>AppleImg4Verification</key>
 			<false/>
 			<key>AppleSecureBoot</key>
+			<false/>
+			<key>AppleEg2Info</key>
 			<false/>
 		</dict>
 		<key>Quirks</key>
