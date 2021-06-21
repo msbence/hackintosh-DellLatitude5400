@@ -28,6 +28,7 @@
 - Dedicated brightness control keys (use Fn+S/Fn+B instead)
 - Jack hotplug sometimes not working
 - HDMI coldplug (hotplug is OK)
+- DRM
 - *Hibernation (none of Hackintoshes can do that)*
 
 ## Working
