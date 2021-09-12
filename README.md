@@ -1,5 +1,10 @@
 # Hackintosh for Dell Latitude 5400
 
+---
+**NOTE: I've got a real MacBook so this repository should not be considered up to date anymore. However, I keep my Latitude 5400 as well, with macOS installed, so if there is something really broken, let me know and I'll try my best.**
+
+---
+
 *Based on OpenCore, of course.*
 
 **WARNING: This repository now uses macOS Monterey 12, an early developer beta build of macOS! Use at your own risk! (Although everything should work as in Big Sur.) If you need info for Big Sur, feel free to look at an older commit.**
