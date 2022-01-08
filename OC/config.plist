@@ -389,6 +389,8 @@
 			<false/>
 			<key>ForceBooterSignature</key>
 			<false/>
+			<key>ResizeAppleGpuBars</key>
+			<integer>-1</integer>
 		</dict>
 		<key>MmioWhitelist</key>
 		<array>
@@ -1621,6 +1623,10 @@
 			<false/>
 			<key>GopPassThrough</key>
 			<string>Disabled</string>
+			<key>UIScale</key>
+			<integer>0</integer>
+			<key>ReconnectGraphicsOnConnect</key>
+			<false/>
 		</dict>
 		<key>ProtocolOverrides</key>
 		<dict>
@@ -1687,6 +1693,10 @@
 			<false/>
 			<key>ForceOcWriteFlash</key>
 			<false/>
+			<key>EnableVmx</key>
+			<false/>
+			<key>ResizeGpuBars</key>
+			<integer>-1</integer>
 		</dict>
 		<key>ReservedMemory</key>
 		<array>
