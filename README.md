@@ -1,13 +1,15 @@
 # Hackintosh for Dell Latitude 5400
 
 ---
-**NOTE: I've got a real MacBook so this repository should not be considered up to date anymore. However, I keep my Latitude 5400 as well, with macOS installed, so if there is something really broken, let me know and I'll try my best.**
+~~**NOTE: I've got a real MacBook so this repository should not be considered up to date anymore. However, I keep my Latitude 5400 as well, with macOS installed, so if there is something really broken, let me know and I'll try my best.**~~
+
+**2nd NOTE: That MacBook Pro was more unstable than my Hackintosh... But it was time to upgrade, so I got myself a Latitude 7430. And I problably sell my 5400, so this might be the very last commit I do. Thank you all!**
 
 ---
 
 *Based on OpenCore, of course.*
 
-**WARNING: This repository now uses macOS Monterey 12, an early developer beta build of macOS! Use at your own risk! (Although everything should work as in Big Sur.) If you need info for Big Sur, feel free to look at an older commit.**
+**WARNING: This repository now uses macOS 13 Ventura, if you need info for Montenery or Big Sur, feel free to look at an older commit, or use tags.**
 
 ![About my Mac](.img/system.png)
 
@@ -20,18 +22,14 @@
 |**IGPU**|Intel UHD 620|
 |**SSD**|Western Digital Black NVMe 500GB|
 |**ETH**|Intel I217-LM|
-|**WLAN+BT**|BCM94360NG|
+|**WLAN+BT**|BCM94360NG (Intel 9560NGW can also work)|
 |**WWAN**|Dell DW5809e (EM7305, 4G)|
 |**Audio**|Realtek ALC236|
 |**Ports**|USB-C (PD+DP-AltMode), 3xUSB3.0, HDMI, microSD, Multi-Jack, DC|
 
 ## Not working
 
-- MicroSD card reader
-- TouchPad buttons
-- TrackStick
 - Dedicated brightness control keys (use Fn+S/Fn+B instead)
-- Jack hotplug sometimes not working
 - HDMI coldplug (hotplug is OK)
 - *Hibernation (none of Hackintoshes can do that)*
 
@@ -39,7 +37,8 @@
 
 - **Everything what is not in the Not working section :D**
 - Bluetooth (4.0, LE, Handoff) [out-of-the-box, no kext needed]
-- WLAN [no kext needed]
+- WLAN [no kext needed] (recommended)
+- Intel WLAN [kexts added, but not that stable]
 - Ethernet
 - HDMI, DisplayPort Alt Mode (all with sound, but no volume adjustment)
 - USB-C (I'm using it with a docking station all the time)
@@ -49,11 +48,19 @@
 - Audio, with speaker and microphone support
 - QE/CI
 - Sleep
+- MicroSD card reader
+- TouchPad buttons
+- TrackStick
+- Multi-Jack (both cold- and hotplug)
 
 ## Some random text
 
 So I made this hackintosh basically just for fun, but it seems kinda stable, so I use it as my dialy driver. I've never had crashes with it.  
-Regarding the not working stuff: the card reader is a PCI one, and only the USB ones are supported, there is no driver for it (currently). I don't need it anyway :) The Jack hotplug thing is more stable with every new AppleALC release but I don't use it because of two things: there is a jack port on my docking station and that works perfectly, or I just go with Bluetooth audio which works fine.  
-The priority is the Trackpad buttons. That's a pain in the @ss. My trackpad is an I2C one, and I'm using it with the VoodooI2C kext which is pretty incompatible with VoodooPS2. So either I have a fully working Magic Trackpad 2 like Trackpad without buttons, or have a "dumb" Trackpad with buttons. I choose the first option. I usually use my Hackintosh with a Magic Mouse 2 anyways. But I would like to fix this sometime. In the meantime I have a mixed version of VoodooI2C and VoodooPS2 so I have keyboard (which is a good to have), and trackpad without buttons (update: now dragging works! (clicking still not, but I can live with that)).
+
+Regarding the not working stuff: with some time I managed to fix almost everything, so only two things are not working, but none of them is a deal-breaker:
+ - The brightness control keys are not working, eventhough I added and configured the Brightness Control kext. I kept it, as with a version upgrade they might fix it.
+ - HDMI coldplug: I have no idea why is it happing... But I use a USB-C docking station, so it's not a problem at all for me. And the port itself works, just need a re-plugging, so...
+
+I would have a sentence about Intel Wifi+BT which the 5400 contains by default: When I started this project there was no such thing as Intel Wifi support at all. During the years kexts started to appear, and now I have seen promising results. That's why I digged my stock card up, placed it back, and made my EFI compatible with it! So it will work with stock WLAN card. Eventhough I would still recommend getting a natively supported one, first because the Intel card was not so stable (usuable, but not smooth (for example slow network scanning)), secondly as it did with Ventura, Apple can rewrite the whole BT/WLAN with any upgrade. There is nothing better than natively supported hardware, even in this wild west... :)
 
 Pull requests or suggestions are welcome! :)
