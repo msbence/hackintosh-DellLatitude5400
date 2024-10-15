@@ -5,13 +5,17 @@
 
 ~~**2nd NOTE: That MacBook Pro was more unstable than my Hackintosh... But it was time to upgrade, so I got myself a Latitude 7430 (expect an EFI for this too :D). And I problably sell my 5400, so this might be the very last commit I do. Thank you all!**~~
 
-**3nd NOTE: So that 7430 had Iris Xe graphics card -> No hackintoshing... But I sold it, and got a 5400 again. I am not into macOS anymore, but decided to update the repo anyhow. Enjoy!**
+~~**3rd NOTE: So that 7430 had Iris Xe graphics card -> No hackintoshing... But I sold it, and got a 5400 again. I am not into macOS anymore, but decided to update the repo anyhow. Enjoy!**~~
+
+**4th NOTE: Switched to Framework, and it is again too new for hackintoshing :(**
 
 ---
 
 *Based on OpenCore, of course.*
 
-**WARNING: This repository now uses macOS 14 Sonoma, if you need info for Ventura, Montenery, or Big Sur; feel free to look at an older commit, or use tags.**
+**WARNING: This repository now uses macOS 15 Sequoia, if you need info for Sonoma, Ventura, Montenery, or Big Sur; feel free to look at an older commit, or use tags.**
+
+**Sequoia**: Be advised that the Intel WiFi kext was not updated to Sequoia yet. Intel cards WILL NOT work! Also, in order to upgrade to Sequoia you might have to temporarily disable the BlueToolFixup.kext in OpenCore.
 
 ![About my Mac](.img/system.png)
 
