@@ -3,13 +3,15 @@
 ---
 ~~**NOTE: I've got a real MacBook so this repository should not be considered up to date anymore. However, I keep my Latitude 5400 as well, with macOS installed, so if there is something really broken, let me know and I'll try my best.**~~
 
-**2nd NOTE: That MacBook Pro was more unstable than my Hackintosh... But it was time to upgrade, so I got myself a Latitude 7430 (expect an EFI for this too :D). And I problably sell my 5400, so this might be the very last commit I do. Thank you all!**
+~~**2nd NOTE: That MacBook Pro was more unstable than my Hackintosh... But it was time to upgrade, so I got myself a Latitude 7430 (expect an EFI for this too :D). And I problably sell my 5400, so this might be the very last commit I do. Thank you all!**~~
+
+**3nd NOTE: So that 7430 had Iris Xe graphics card -> No hackintoshing... But I sold it, and got a 5400 again. I am not into macOS anymore, but decided to update the repo anyhow. Enjoy!**
 
 ---
 
 *Based on OpenCore, of course.*
 
-**WARNING: This repository now uses macOS 13 Ventura, if you need info for Montenery or Big Sur, feel free to look at an older commit, or use tags.**
+**WARNING: This repository now uses macOS 14 Sonoma, if you need info for Ventura, Montenery, or Big Sur; feel free to look at an older commit, or use tags.**
 
 ![About my Mac](.img/system.png)
 
@@ -31,6 +33,7 @@
 
 - Dedicated brightness control keys (use Fn+S/Fn+B instead)
 - HDMI coldplug (hotplug is OK)
+- WWAN (worked before, but looks like now it is completly deprecated in macOS)
 - *Hibernation (none of Hackintoshes can do that)*
 
 ## Working
@@ -42,7 +45,6 @@
 - Ethernet
 - HDMI, DisplayPort Alt Mode (all with sound, but no volume adjustment)
 - USB-C (I'm using it with a docking station all the time)
-- WWAN (good speed, 4G, works fine, tho Apple kinda abandoned this feature)
 - USB ports mapped, working after sleep
 - TrackPad with gestures (visible as Magic Trackpad 2)
 - Audio, with speaker and microphone support
@@ -61,6 +63,6 @@ Regarding the not working stuff: with some time I managed to fix almost everythi
  - The brightness control keys are not working, eventhough I added and configured the Brightness Control kext. I kept it, as with a version upgrade they might fix it.
  - HDMI coldplug: I have no idea why is it happing... But I use a USB-C docking station, so it's not a problem at all for me. And the port itself works, just need a re-plugging, so...
 
-I would have a sentence about Intel Wifi+BT which the 5400 contains by default: When I started this project there was no such thing as Intel Wifi support at all. During the years kexts started to appear, and now I have seen promising results. That's why I digged my stock card up, placed it back, and made my EFI compatible with it! So it will work with stock WLAN card. Eventhough I would still recommend getting a natively supported one, first because the Intel card was not so stable (usuable, but not smooth (for example slow network scanning)), secondly as it did with Ventura, Apple can rewrite the whole BT/WLAN with any upgrade. There is nothing better than natively supported hardware, even in this wild west... :)
+I would have a sentence about Intel Wifi+BT which the 5400 contains by default: When I started this project there was no such thing as Intel Wifi support at all. During the years kexts started to appear, and now I have seen promising results. That's why I digged my stock card up, placed it back, and made my EFI compatible with it! So it will work with stock WLAN card. Eventhough I would still recommend getting a natively supported one, first because the Intel card was not so stable (usuable, but not smooth (for example slow network scanning)), secondly as they did with Ventura, Apple can rewrite the whole BT/WLAN with any upgrade. There is nothing better than natively supported hardware, even in this wild west... :)
 
 Pull requests or suggestions are welcome! :)
